@@ -1,5 +1,6 @@
-## ------ Experimental Power Analysis in R## ------ ## 
-## ------ Author:   Spencer T. Gardner## ------ ##
+## ------ Source:   https://slcladal.github.io/pwr.html#Introduction ------ ##
+## ------ Title:    Experimental Power Analysis in R ------ ## 
+## ------ Editor:   Spencer T. Gardner ------ ##
 ## ------ Date:     6/23/2021 ------ ##
 
 # What determines if your model finds an effect?
