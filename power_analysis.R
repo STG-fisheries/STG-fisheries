@@ -28,6 +28,7 @@ rm(list = ls(all.names = TRUE))              # Delete all objects in R
 getwd()
 setwd()
 
+## ------ Code Source: https://slcladal.github.io/pwr.html#Preparation_and_session_set_up
 ## Install necessary packages for analysis
 install.packages(c("tidyverse", "lme4", "sjPlot", "simr")) 
 
@@ -35,3 +36,25 @@ library(tidyverse)                            # collection of open sourced packa
 library(lme4)                                 # linear and generalized mixed-effects models 
 library(sjPlot)                               # visualization package
 library(simr)                                 # calculates power for generalized linear mixed-effects models... designed to work with lme4
+
+# Generate the following dataset
+##=============================
+# 45 total observations
+# 2 Factors (Temperature and Photoperiod)
+# 3 Treatment Levels
+
+sim_data <- data.frame(
+  unique_id <- rep(1:45),
+  tank_no <- rep(paste0("Tank_" 1:9), each = 3),
+  treatment <- rep(c(
+    rep("PL:TL", 3),
+    rep("PL:TM", 3),
+    rep("PL:TH", 3),
+    rep("PM:TL", 3),
+    rep("PM:TM", 3),
+    rep("PM:TH", 3),
+    rep("PH:TL", 3),
+    rep("PH:TM", 3),
+    rep("PH:TH", 3))),
+) %>%
+  dplyr::mutate_if(is.character, factor)
