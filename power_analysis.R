@@ -8,7 +8,7 @@
 
 # Type II Error (beta) = Probability of failing to reject a false null hypothesis (false negative)
 #       - This is a FALSE NEGATIVE, concluding there's no pattern when one actually exist
-#       - (1 - beta) is the statistical power... 
+#       - (1 - beta) is the statistical power... here we start with 0.80 (4:1 trade-off between Type II and Type I error) 
 
 # What determines statistical power?
 #         - Size of the effect
@@ -29,7 +29,7 @@ getwd()
 setwd()
 
 ## Install necessary packages for analysis
-install.packages(c("tidyverse", "lme4", "sjPlot", "simr"))
+install.packages(c("tidyverse", "lme4", "sjPlot", "simr")) 
 
 library(tidyverse)                            # collection of open sourced packages used to structure and summarize data 
 library(lme4)                                 # linear and generalized mixed-effects models 
