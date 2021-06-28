@@ -2,6 +2,8 @@
 ## ------ Editor:   Spencer T. Gardner ------ ##
 ## ------ Date:     6/23/2021 ------ ##
 
+## "What sample size would be needed to detect a hypothesized effect based on some critical level of significance, alpha?" - Stephen Parker 
+
 # Type I Error (alpha) = Probability of incorrectly rejecting a true null hypothesis 
 #       - This is a FALSE POSITIVE, concluding there's a pattern when one doesn't exist
 #       - alpha is the acceptable significance level (usually set to 0.05 or 5%)
