@@ -1,8 +1,9 @@
 ## ------ Title:    Experimental Power Analysis in R ------ ## 
 ## ------ Editor:   Spencer T. Gardner ------ ##
-## ------ Date:     6/23/2021 ------ ##
+## ------ Contributor:  Stephen W. Parker ------ ##
+## ------ Date:     June 2021 ------ ##
 
-## "What sample size would be needed to detect a hypothesized effect based on some critical level of significance, alpha?" - Stephen Parker 
+## What sample size would be needed to detect a hypothesized effect based on some critical level of significance, alpha?
 
 # Type I Error (alpha) = Probability of incorrectly rejecting a true null hypothesis 
 #       - This is a FALSE POSITIVE, concluding there's a pattern when one doesn't exist
@@ -19,9 +20,9 @@
 
 # There is a TRADE-OFF between Type I and Type II errors. Decreasing the probability of one, increases probability of the other. 
 
-#   Before conducting an experiment we should always determine how likely we are 
-# to detect an effect given our experimental design (i.e., replicates, treatment
-# levels, etc.). 
+# Before conducting an experiment we should always determine how likely we are to detect an effect given our experimental design 
+# (i.e., A Priori power analysis). However, we can also interpret an analysis that has failed to reject the null hypothesis 
+# through an A Posteriori power analysis.
 
 #______________________________________________________________________________________________________________________________
 
