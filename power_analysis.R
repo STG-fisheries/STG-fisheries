@@ -5,26 +5,28 @@
 
 ## What sample size would be needed to detect a hypothesized effect based on some critical level of significance, alpha?
 
-# Type I Error (alpha) = Probability of incorrectly rejecting a true null hypothesis 
-#       - This is a FALSE POSITIVE, concluding there's a pattern when one doesn't exist
-#       - alpha is the acceptable significance level (usually set to 0.05 or 5%)
+# Type I Error (alpha) = Probability of rejecting (incorrectly) the null hypothesis when it is in fact true.
+#       - This is a FALSE POSITIVE, you are concluding that a false pattern exist.
+#       - alpha is the acceptable significance level (usually set to 0.05 or 5%).
 
-# Type II Error (beta) = Probability of failing to reject a false null hypothesis (false negative)
-#       - This is a FALSE NEGATIVE, concluding there's no pattern when one actually exist
-#       - (1 - beta) is the statistical power... here we start with 0.80 (4:1 trade-off between Type II and Type I error) 
+# Type II Error (beta) = Probability of failing to reject the null hypothesis when it is in fact false.
+#       - This is a FALSE NEGATIVE, here the error occurs when concluding there's no pattern when one actually exist.
+#       - (1 - beta) is the statistical power... here we start with 0.80 (4:1 trade-off between Type II and Type I error).
+#                                               * If we were as conservative about Type II as Type I we would set power to 0.95
 
 # What determines statistical power?
 #         - Size of the effect
-#         - Variabiltiy in the effect (sd)
+#         - Variabiltiy in the effect (s^2) --> natural and measured variance
 #         - Sample size (n) ... number of observable replicates
+#                     * Peterman (1990) includes alpha as a predictor of power, however convention ecology is fixed on a = 0.05
 
-# There is a TRADE-OFF between Type I and Type II errors. Decreasing the probability of one, increases probability of the other. 
+# There is a TRADE-OFF between Type I and Type II errors. Decreasing the probability of one, increases the probability of the other. 
 
 # Before conducting an experiment we should always determine how likely we are to detect an effect given our experimental design 
 # (i.e., A Priori power analysis). However, we can also interpret an analysis that has failed to reject the null hypothesis 
 # through an A Posteriori power analysis.
 
-#______________________________________________________________________________________________________________________________
+#__________________________________________________________________________________________________________________________________________
 
 rm(list = ls(all.names = TRUE))              # Delete all objects in R
 
