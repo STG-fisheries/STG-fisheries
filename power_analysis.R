@@ -1,6 +1,6 @@
 ## ------ Title:    Experimental Power Analysis in R ------ ## 
 ## ------ Editor:   Spencer T. Gardner ------ ##
-## ------ Contributor:  Stephen W. Parker ------ ##
+## ------ Contributor:  Frederick S. Scharf & Stephen W. Parker ------ ##
 ## ------ Date:     June 2021 ------ ##
 
 ## What sample size would be needed to detect a hypothesized effect based on some critical level of significance, alpha?
@@ -15,7 +15,7 @@
 #                                               * If we were as conservative about Type II as Type I we would set power to 0.95
 
 # What determines statistical power?
-#         - Size of the effect
+#         - Size of the effect (ecological relevant difference between populations)
 #         - Variabiltiy in the effect (s^2) --> natural and measured variance
 #         - Sample size (n) ... number of observable replicates
 #                     * Peterman (1990) includes alpha as a predictor of power, however convention ecology is fixed on a = 0.05
