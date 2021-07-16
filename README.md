@@ -19,7 +19,7 @@
 	Currently learning and working in...
 
 	Agent-based modeling:				Interactive Data Language (IDL) and NetLogo
-	Population and statistical modeling:		R and Python
+	Population and statistical modeling:		R, MATLAB, and Python
 		
 
 
