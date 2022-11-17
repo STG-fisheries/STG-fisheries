@@ -12,14 +12,12 @@
 
 ----
 
-	I’m a graduate research assistant at Purdue University with a strong interest on the early life history and recruitment dynamics of fishes.
+	I’m a graduate research assistant at Purdue University with a strong interest on the early life history and recruitment dynamics of fishes. My exploration of
+	these topics haved relied on the use of agent-based modeling, large datasets, and high performance computing clusters. Accustom to syntax of Linux, Interactive
+	Data Language (IDL), python, R, NetLogo, and MATLAB.
+	
 	Always open to new challenges and collaborations with other motivated aquatic ecologist.
-
-
-	Currently learning and working in...
-
-	Agent-based modeling:				Interactive Data Language (IDL) and NetLogo
-	Population and statistical modeling:		R, MATLAB, and Python
+	
 		
 
 
